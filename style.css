@@ -1,0 +1,57 @@
+/* here we will do the css */
+
+*{
+  margin: 0;
+  padding: 0;
+}
+body{
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-image: url('https://wallpapercave.com/wp/wp2835925.png');
+
+}
+.topnav {
+  background-color: transparent;
+  overflow: hidden;
+  float: left;
+}
+/* style te links */
+.topnav a{
+  float: left;
+  display: block;
+  color: blue;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+  font-size: 17px;
+}
+.topnav a:hover{
+  background-color: #ee82ee;
+  color: #000;
+  text-decoration: underline;
+}
+.topnav a.active{
+  background-color: aqua;
+  color: white;
+}
+.topnav .icon {
+  display: none;
+}
+.blue_colour{
+  color: blue;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 100px;
+  transform: translateX(-50%)translateY(-100%);
+}
+.add_subtitle{
+  color: purple;
+  text-align: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  font-size: 50px;
+  transform: translateX(-50%)translateY(-0.001%);
+}
